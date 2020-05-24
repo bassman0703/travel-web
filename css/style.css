@@ -1,12 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-name {
-    font-size: 48px;
+  font-size: 48px;
 }
 .nav-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 .bg-img {
-    width: 100%;
+  width: 100%;
 }
 .search-form {
-    margin-top: 20%;
+  padding-top: 20%;
+  width: max-content;
+  margin: auto;
+  height: calc(100vh - 98px);
+}
+
+.search-bg {
+  background: url(../img/header-bg.jpg);
+  background-size: cover;
+  height: calc(100vh - 115px);
+  width: 100%;
+}
+.logo
+{
+    width: 100px;
 }
