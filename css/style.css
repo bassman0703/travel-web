@@ -26,6 +26,6 @@ html {
   height: calc(100vh - 115px);
   width: 100%;
 }
-.logo{
-    width: 120px;
+.nav-logo{
+    height: 120px;
 }
