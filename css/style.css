@@ -17,7 +17,7 @@ html {
   padding-top: 20%;
   width: max-content;
   margin: auto;
-  height: calc(100vh - 98px);
+  height: calc(70vh - 98px);
 }
 
 .search-bg {
