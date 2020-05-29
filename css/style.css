@@ -52,4 +52,6 @@ html {
 
 
 /* section-1 */
-.text-p
+.text-p {
+  font-size: 16px;
+}
