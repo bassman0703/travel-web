@@ -29,3 +29,27 @@ html {
 .nav-logo{
     width: 100px;
 }
+
+
+/* rate-star */
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 18px;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: orange;
+   font-size: 18px;
+}
+
+
+/* section-1 */
+.text-p
