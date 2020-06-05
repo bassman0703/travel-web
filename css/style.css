@@ -10,15 +10,13 @@ html {
 
 
 
-.header__login {
-  position: relative;
-}
+
 
 #login-popup {
   width: 350px;
   height: 350px;
   display: none;
-  background-color: thistle;
+ 
   position: absolute;
   right: 15px;
   top: 100px;
@@ -77,3 +75,4 @@ html {
   width: 370px;
   margin-left: 60px;
 }
+

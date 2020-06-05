@@ -5,6 +5,19 @@
     },
     {
         "name": "Accommodation",
-        "url": "/accommodation"
+        "url": "/"
+    },
+    {
+        "name": "Travel Guides",
+        "url": "/"
+    },
+    {
+        "name": "Where To Stay",
+        "url": "/"
+    },
+    {
+        "name": " Contact Us",
+        "url": "/"
     }
+
 ]
