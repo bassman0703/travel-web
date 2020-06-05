@@ -4,31 +4,49 @@ html {
   padding: 0;
 }
 
-.nav-name {
-  font-size: 48px;
+.nav-logo{
+  width: 100px;
 }
-.nav-text {
-  font-size: 18px;
+
+
+
+.header__login {
+  position: relative;
 }
+
+#login-popup {
+  width: 350px;
+  height: 350px;
+  display: none;
+  background-color: thistle;
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  border-radius: 15px;
+  z-index: 1000;
+}
+#login-popup.open {
+  display: block;
+}
+
 .bg-img {
   width: 100%;
 }
 .search-form {
+  width: 70vw;
   padding-top: 20%;
-  width: max-content;
   margin: auto;
   height: calc(70vh - 98px);
 }
 
 .search-bg {
-  background: url(../img/header-bg.jpg);
   background-size: cover;
   height: calc(99.9vh - 115px);
   width: 100%;
 }
-.nav-logo{
-    width: 100px;
-}
+
+ 
+
 
 
 /* rate-star */
@@ -54,4 +72,8 @@ html {
 /* section-1 */
 .text-p {
   font-size: 16px;
+}
+.p-box {
+  width: 370px;
+  margin-left: 60px;
 }
