@@ -38,6 +38,7 @@ html {
 }
 
 .search-bg {
+  background-image: url(../img/header-bg.jpg);
   background-size: cover;
   height: calc(99.9vh - 115px);
   width: 100%;
